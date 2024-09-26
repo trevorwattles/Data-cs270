@@ -1,0 +1,17 @@
+@relation linear_separable_data
+
+@attribute x numeric
+@attribute y numeric
+@attribute class {class1, class2}
+
+@data
+1, 4, class2
+2, 5, class2
+3, 6, class2
+4, 9, class1
+5, 10, class1
+6, 11, class1
+7, 14, class1
+8, 15, class1
+9, 16, class1
+10, 19, class1
