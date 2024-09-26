@@ -1,0 +1,19 @@
+@relation non_linear_separable_data
+
+@attribute x numeric
+@attribute y numeric
+@attribute class {class1, class2}
+
+@data
+1, 1, class1
+2, 1, class1
+3, 2, class2
+4, 3, class2
+1, 4, class1
+2, 5, class1
+5, 2, class2
+6, 1, class2
+7, 3, class1
+8, 2, class1
+3, 5, class2
+6, 4, class1
